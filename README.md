@@ -20,6 +20,12 @@ It was developed and is maintained by ShareX Team, which is located in Turkey, a
 
 ### Features
 
+ShareX contains numerous features for easy screen capturing and recording. It also has some built-in features for image, text and video upload to the web and also some basic editing tools.
+
+It also has some automation features, that can be triggered before and after capture. It is a free software, but it has the option to donate.
+
+Below are presented the main features, as listed on their website.
+
 #### Capturing
 
 ![ShareX Capture Menu]
@@ -125,21 +131,6 @@ ShareX supports the following destinations:
 * [Google Photos (Picasa)](https://picasaweb.google.com)
 * [Twitter](https://twitter.com)
 * [Chevereto](https://chevereto.com)
-  * [UltraIMG](http://ultraimg.com)
-  * [Yukle.at](http://yukle.at)
-  * [PatiFile](http://img.patifile.com)
-  * [BoltIMG](http://boltimg.com)
-  * [Snapie](http://snapie.net)
-  * [picgur](http://picgur.org)
-  * [pixr](http://pixr.co)
-  * [sexr](http://sexr.co)
-  * [Lightpics](http://lightpics.net)
-  * [Imgfly](http://imgfly.me)
-  * [ImgPinas](http://imgpinas.com)
-  * [imu.gr](http://imu.gr)
-  * [Upsieutoc](http://www.upsieutoc.com)
-  * [StoreMyPic](http://www.storemypic.com)
-  * [TL Things](http://i.tlthings.net)
 * [vgy.me](http://vgy.me)
 * [SomeImage](https://someimage.com)
 * [Imgland](http://imgland.net)
@@ -183,24 +174,6 @@ ShareX supports the following destinations:
 * [Lambda](http://lambda.sx)
 * [VideoBin](http://videobin.org)
 * [Pomf](https://github.com/nokonoko/Pomf)
-  * [1339.cf](http://1339.cf)
-  * [catgirlsare.sexy](https://catgirlsare.sexy)
-  * [comfy.moe](http://comfy.moe)
-  * [cocaine.ninja](https://cocaine.ninja)
-  * [cuntflaps.me](http://cuntflaps.me)
-  * [files.plebeianparty.com](http://files.plebeianparty.com)
-  * [g.zxq.co](http://g.zxq.co)
-  * [glop.me](http://glop.me)
-  * [kyaa.sg](http://kyaa.sg)
-  * [maxfile.ro](https://maxfile.ro)
-  * [mixtape.moe](https://mixtape.moe)
-  * [nigger.cat](https://nigger.cat)
-  * [pomf.cat](https://pomf.cat)
-  * [pomf.hummingbird.moe](http://pomf.hummingbird.moe)
-  * [pomf.is](https://pomf.is)
-  * [reich.io](http://reich.io)
-  * [sugoi.vidyagam.es](https://sugoi.vidyagam.es)
-  * [up.che.moe](http://up.che.moe)
 * [Uguu](https://uguu.se)
 * [Dropfile](https://dropfile.to)
 * [Seafile](https://www.seafile.com)
@@ -271,11 +244,11 @@ Productivity tools to make certain tasks more efficient.
 
 ### Stakeholder analysis
 
-ShareX is maintained under the GNU General Public License. It was created and is maintained by ShareX Team, which is located in Turkey, but everyone can contribute to the software, by issuing pull requests. To contribute, one must use Visual Studio 2015 and CodeMade, to format the code. The steps to contribute are described on their [wiki page](https://github.com/ShareX/ShareX/wiki/Code-contribution). 
+ShareX is maintained under the GNU General Public License. It was created and is maintained by ShareX Team, which is located in Turkey, but everyone can contribute to the software, by issuing pull requests. To contribute, one must use Visual Studio 2015 to develop and CodeMade, to format the code. The steps to contribute are described on their [wiki page](https://github.com/ShareX/ShareX/wiki/Code-contribution). 
 
 The most important stakeholders that are identified based on the categorization of Rozanski and Woods [1] are discussed below.
 
-The **users** of ShareX consist of everyone that uses the application to perform any screen sharing action provided by the application. ShareX is used ostly by non-commercial users wishing to perform more advanced screen capturing tasks, that are not natively available on Windows. Similarly, commercial users of the application use it for the same purposes as non-commercial users. There are no commercial parties that acknowledge that they specifically use ShareX.
+The **users** of ShareX consist of everyone that uses the application to perform any screen sharing action provided by the application. ShareX is used mostly by non-commercial users wishing to perform more advanced screen capturing tasks, that are not natively available on Windows. Similarly, commercial users of the application use it for the same purposes as non-commercial users. There are no commercial parties that acknowledge that they specifically use ShareX.
 
 The current most active **maintainer** of the project is the user [Jaex](https://github.com/Jaex), which is the ShareX Team. They are actively involved in the development and they oversee and and review all new contributions to assure the quality of the project.
 
@@ -286,9 +259,13 @@ The community offers **support** using the GitHub issue system. This support is 
 ![Context viewpoint of ShareX](http://i.imgur.com/HniXL8t.png?1 "Context viewpoint of ShareX")
 *Context viewpoint of ShareX*
 
-ShareXis a completely open source project and GitHub is the main platform in which it is developed. Like any project hosted in GitHub, the developers come from everywhere as long as they are interested in ShareX and are willing to contribute. Nevertheless, the maintainer and owner of the project is the ShareX Team. Those people are the core developers of the ShareX. 
+As we can see in the image above, ShareX is a completely open source project, released under the GNU GPLv3 license, and GitHub is the main platform in which it is maintained. Like any project hosted in GitHub, the developers come from everywhere as long as they are interested in ShareX and are willing to contribute. Nevertheless, the maintainer and owner of the project is the ShareX Team. Those people are the core developers of the ShareX. Every change made by external users are submitted by issuing pull requests and require approval from the ShareX Team in order to be released
 
-ShareX's main data source are programs and applications screens, which the user wants to capture. As an open source project, users can easily download the source code and build the program from GitHub. ShareX can run on on Windows, mainly because it is developed in C#.
+ShareX's main data source are programs and applications screens, which the user wants to capture, be this still images or videos. As an open source project, users can easily download the source code and build the program from GitHub.
+
+Because it is hosted on Github, support for ShareX is given through Github's issue system. One can create an issue on the application's page on Github and receive support from ShareX Team or any other user that has the answer. Also, one can report bugs and problems by creating an issue.
+
+ShareX is a Windows-only application and it was developed in C#.
 
 ## Releases
 
@@ -447,6 +424,8 @@ Below, are presented the changes implemented on the major version releases, sinc
 
 ## Architecture
 
+According to Rozanski and Woods[1], the development view concerns "code structure and dependencies, build and configuration management of deliverables, systemwide design constraints, and system-wide standards to ensure technical integrity"
+
 In this section we aim to give the reader more insight into the architecture of the application. The component structure of the application is explained and visualized using a diagram. 
 
 ### Component Structure
@@ -466,9 +445,72 @@ ShareX consists of 12 projects that are related to each other, and their relatio
 * **ShareX.Steam**: ShareX is also available on the Steam Store. This project is responsible for defining that.
 * **Greenshot.ImageEditor**: This Greenshot image editor is used when the user wants to do more advanced editing to an image. It defines all the configurations, controls, interfaces as well as the core of the editing tool.
 
-![Project Dependencies Diagram](http://i.imgur.com/gdEg9aM.png "Project Dependencies Diagram")
+![Project Dependencies Diagram](http://i.imgur.com/gOZolTK.png "Project Dependencies Diagram")
 
+As we can see in the diagram above, ShareX module, which is the main one, depends on pretty much every other module. Meanwhile, the Helpers Lib is needed for every other module, and it has only one dependency, which is the Greenshot Image Editor.
+
+Apart from the Helpers Lib dependency, all other modules have no dependency, making them quite standalone. The only exception is the Screen Capture Lib, which depends on the Media Lib.
+
+### Code Metrics
+
+Code metrics is a set of software measures that provide developers better insight into the code they are developing. By taking advantage of code metrics, developers can understand which types and/or methods should be reworked or more thoroughly tested. Development teams can identify potential risks, understand the current state of a project, and track progress during software development.
+
+Visual Studio, which is the selected IDE to develop ShareX, has a tool for code analysis and metrics. It calculates 5 different metrics that describe different information about the code.
+
+The metrics are:
+
+* **Maintainability Index** – Calculates an index value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability. Color coded ratings can be used to quickly identify trouble spots in your code. A green rating is between 20 and 100 and indicates that the code has good maintainability. A yellow rating is between 10 and 19 and indicates that the code is moderately maintainable. A red rating is a rating between 0 and 9 and indicates low maintainability.
+* **Cyclomatic Complexity** – Measures the structural complexity of the code. It is created by calculating the number of different code paths in the flow of the program. A program that has complex control flow will require more tests to achieve good code coverage and will be less maintainable.
+* **Depth of Inheritance** – Indicates the number of class definitions that extend to the root of the class hierarchy. The deeper the hierarchy the more difficult it might be to understand where particular methods and fields are defined or/and redefined.
+* **Class Coupling** – Measures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types.
+* **Lines of Code** – Indicates the approximate number of lines in the code. The count is based on the IL code and is therefore not the exact number of lines in the source code file. A very high count might indicate that a type or method is trying to do too much work and should be split up. It might also indicate that the type or method might be hard to maintain.
+
+Below it is shown the code metrics for the ShareX project:
+
+![ShareX Code Metrics](http://i.imgur.com/QOBTuUc.png "ShareX Code Metrics")
+
+As we can see, the bigger modules, when it comes to lines of code, are also the ones with higher depth of inheritance. With the exception of the Screen Capture Lib, which also has a high depth of inheritance, but relatively low number of code lines, when comparing with the other 4 bigger modules.
+
+In overall, the project has a high maintainability index, which means it is easy to maintain.
+
+Interestingly, the biggest module of the entire application is the Uploaders Lib. This lib is an ever-growing one, as it grows as new upload options are added to the application.
+
+### Standardization
+
+As an open source project that welcomes contributors, ShareX has a great need for standardization. Without it, contributions might not be developed or checked properly, leading to a messy codebase and bugs.
+
+One way ShareX fulfills this need is by using a CodeMaid config file. CodaMaid is an open source Visual Studio extension to cleanup and simplify C#, C++, F#, VB, PHP, PowerShell, R, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript and TypeScript coding. With this, when someone does some changes to the code and saves it, CodaMaid automatically formats the code. Apart from this, there aren't any other specific guidelines to follow.
+
+Furthermore, pull requests are in almost all cases merged by the ShareX Team, which will ensure that the owner of the application checks the code before it is merged.
+
+### Technical Debt
+
+Technical debt is an important property to examine in every software system, as a large amount of technical debt can make the software resistant to change until it is resolved. The debt is mostly introduced by 'dirty fixes': quick solutions that do not adhere to the coding styles, are not tested properly or are not documented properly.
+
+The definition of technical debt is analogous to monetary debt: you 'borrow' time to develop the dirty fix, but you will have to repay that at a later date, with interest [[2]]. For example, when a new change is not tested properly, the action of testing this change becomes debt. When this debt is not repaid quickly, the knowledge may be lost, the change will break unexpectedly or other changes will be built on top of it, all increasing developer time needed, representing interest paid over the debt.
+
+A system with a large technical debt is hard to properly maintain, because for there is an outstanding debt to be paid with each change. A common sight in such systems is a simple change requiring a lot of refactoring work.
+
+#### Current Technical Debt
+
+Technical debt reveals itself when simple bug fixes and feature requests take a long time to implement, because large refactoring is needed before it is even possible to introduce the fix or the new feature. As such, the issues are the first place to look when assessing the technical debt of the system.
+
+The ShareX repository currently has 131. The oldest issues are around 2 years old, which might indicate a large amount of technical debt. A closer inspection of these old issues shows this is not the case: most of the issues (61) are tagged as Enhancements, which means they are not bugs, but improvements that might make the software usability better.
+
+Apart from those enhancements, 2 issues are marked as bugs, 5 are marked as "cannot resolve", which means the issue will not be corrected, and 51 are not labeled.
+
+## Conclusion
+
+ShareX is an open source application for easy screen capturing. It is a free software for Windows only. It lets you capture and record screen areas with a single key press. It also allows for easy upload and sharing of images/videos.
+
+It has a quite organized code structure, mostly because it is maintained by a small number of people, who were responsible for creating the application in the first place.
+
+When it comes to functionality, is has everything needed for screen capturing and most improvements are inclusions of upload options and minor performance improvements.
+
+The major downside is the operating system restriction, making it unusable for non-Windows users.
 
 ## References
 
 [1]: Nick Rozanski and Eoin Woods. Software Systems Architecture: Working with Stakeholders using Viewpoints and Perspectives. Addison-Wesley, 2012.
+
+[2]: "" http://martinfowler.com/bliki/TechnicalDebt.html
